@@ -9,7 +9,8 @@ que o aplicativo esteja na linguagem que o usuario usa, nisso entra a Interciona
 Com o projeto já é necessario adicionar os seguintes pacotes, há duas formas para isso
 
 por linha de comando no terminal exemplo a baixo:
-``` flutter pub add flutter_localizations --sdk=flutter 
+``` 
+ flutter pub add flutter_localizations --sdk=flutter 
  flutter pub add intl:any
 ```
 
@@ -23,6 +24,7 @@ Ainda dentro do Spec adicionage a tag de generate na sessão flutter
 
 Na Raiz do projeto crie um arquivo chamado `l10n.yaml` ele é responsavel pelas configurações a onde ira ser encontrado as localizações.
 Contendo o seguinte conteudo.
+
 ```
 arb-dir: lib/l10n
 template-arb-file: app_pt.arb
